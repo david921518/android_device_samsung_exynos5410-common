@@ -262,7 +262,7 @@ ifeq ($(WITH_TWRP),true)
 # TWRP
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/recovery/etc/twrp.fstab:recovery/root/etc/twrp.fstab \
-    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
+    #bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 endif
 
 # Device uses high-density artwork where available
